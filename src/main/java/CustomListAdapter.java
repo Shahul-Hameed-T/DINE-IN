@@ -15,22 +15,22 @@ import java.util.ArrayList;
 public class CustomListAdapter extends BaseAdapter {
 
     Context con;
-    ArrayList<String> nmlis=new ArrayList<String>();
-    ArrayList<String> cmdlis=new ArrayList<String>();
-    ArrayList<String> countlis=new ArrayList<String>();
-    ArrayList<byte[]> imglis=new ArrayList<byte[]>();
+    ArrayList<String> nmlis = new ArrayList<String>();
+    ArrayList<String> cmdlis = new ArrayList<String>();
+    ArrayList<String> countlis = new ArrayList<String>();
+    ArrayList<byte[]> imglis = new ArrayList<byte[]>();
 
     LayoutInflater ly;
 
-    public CustomListAdapter(Context c, ArrayList<String> nam, ArrayList<String> cmd, ArrayList<String> cunt, ArrayList<byte[]> img)
-    {
-        this.con=c;
-        this.nmlis=nam;
-        this.cmdlis=cmd;
-        this.countlis=cunt;
-        this.imglis=img;
+    public CustomListAdapter(Context c, ArrayList<String> nam, ArrayList<String> cmd, ArrayList<String> cunt,
+            ArrayList<byte[]> img) {
+        this.con = c;
+        this.nmlis = nam;
+        this.cmdlis = cmd;
+        this.countlis = cunt;
+        this.imglis = img;
 
-        ly=(LayoutInflater.from(c));
+        ly = (LayoutInflater.from(c));
     }
 
     @Override
@@ -51,15 +51,15 @@ public class CustomListAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View v, ViewGroup parent) {
 
-        v=ly.inflate(R.layout.cusomlist,null);
+        v = ly.inflate(R.layout.cusomlist, null);
 
-        TextView name=(TextView)v.findViewById(R.id.name1);
-        TextView cmmd=(TextView)v.findViewById(R.id.cmd1);
-        TextView counnt=(TextView)v.findViewById(R.id.counts);
-        ImageView img1=(ImageView)v.findViewById(R.id.image);
+        TextView name = (TextView) v.findViewById(R.id.name1);
+        TextView cmmd = (TextView) v.findViewById(R.id.cmd1);
+        TextView counnt = (TextView) v.findViewById(R.id.counts);
+        ImageView img1 = (ImageView) v.findViewById(R.id.image);
 
-        name.setText("Hotel Name: "  + nmlis.get(i));
-        cmmd.setText("Table No: "  + cmdlis.get(i));
+        name.setText("Hotel Name: " + nmlis.get(i));
+        cmmd.setText("Table No: " + cmdlis.get(i));
         counnt.setText("Person Count: " + countlis.get(i));
         Bitmap bmp = BitmapFactory.decodeByteArray(imglis.get(i), 0, imglis.get(i).length);
 
