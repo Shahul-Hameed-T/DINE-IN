@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:scaleType="centerCrop"
+            android:src="@drawable/laydesign" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/useriicon" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In!"
+            android:textColor="#000"
+            android:textSize="35dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:gravity="right"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:textSize="15dp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttongesign"
+            android:textColor="#fff"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="15dp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/passwords"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/buttongesign"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Login"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonss"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btback"/>
+</RelativeLayout>

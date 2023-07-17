@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vehicleinformation"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="#04AE8C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:text="New Restaurants"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dini">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/bbq"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/buttonss"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="BBQ"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/shree"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonss"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Shree Anandhaas"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/annapoorna"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonss"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Shree Annapoorna"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/hari"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonss"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Hari Bhavan Restaurant"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/saravana"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonss"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Saravana Bhavan Restaurant"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/barista"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonss"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="BARISTA"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/junior"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonss"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Junior Kuppanna"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/veg" />
+
+</LinearLayout>

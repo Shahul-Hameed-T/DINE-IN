@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order_Table"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#04AE8C">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Your Table"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:id="@+id/loadname"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/loadno"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/loadcount"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:textColor="#000"
+            android:layout_marginTop="25dp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"/>
+
+        <EditText
+            android:id="@+id/Oname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15dp"
+            android:padding="8dp"
+            android:textColor="#000"
+            android:background="@drawable/buttongesign"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_gravity="left"
+            android:text="Phone Number"
+            android:textSize="15dp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"/>
+
+        <EditText
+            android:id="@+id/Onum"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:ems="10"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:maxLength="10"
+            android:inputType="number"
+            android:background="@drawable/buttongesign"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_gravity="left"
+            android:text="Your Comments"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="text"
+            android:padding="5dp"
+            android:gravity="start"
+            android:id="@+id/Ocomments"
+            android:background="@drawable/buttongesign"
+            />
+
+
+        <Button
+            android:layout_gravity="bottom|center"
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Book Now"
+            android:textColor="#000"
+            android:background="@drawable/buttonss"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

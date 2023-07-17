@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Select Your Paymode"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/gpay"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/gpay"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp"/>
+
+        <ImageView
+            android:id="@+id/phonepe"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/phonepe"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp"/>
+
+        <ImageView
+            android:id="@+id/diirectpay"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/diretcpay"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

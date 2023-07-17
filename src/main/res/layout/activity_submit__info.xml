@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Submit_Info"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#114C95">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Register Here"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:textColor="#ffff"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/nameU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttongesign"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:layout_gravity="left"
+                android:text="Age:"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/ageU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:padding="8dp"
+                android:inputType="number"
+                android:background="@drawable/buttongesign"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="DOB:"
+                android:textColor="#ffff"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/DOBU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttongesign" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Licence Number:"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/numberL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:background="@drawable/buttongesign" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Licence Expiry Date:"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/numberLE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:background="@drawable/buttongesign" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Registration No:"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/numberReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:background="@drawable/buttongesign" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Address:"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/numberAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:background="@drawable/buttongesign" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Mobile No:"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/MobU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:inputType="number"
+                android:background="@drawable/buttongesign" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/benif"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonss"
+        android:text="Beneficiary"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/submitU"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonss"
+        android:text="Submit"
+        android:textAllCaps="false"/>
+
+
+
+</RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

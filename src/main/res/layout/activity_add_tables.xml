@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_tables"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:text="Add Tables" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="15dp"/>
+
+    <EditText
+        android:id="@+id/table_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit"
+        android:paddingLeft="5dp"
+        android:hint="Hotel Name"
+        android:textColor="#000"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="15dp"/>
+
+    <EditText
+        android:id="@+id/table_no"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit"
+        android:paddingLeft="5dp"
+        android:hint="Table No: "
+        android:inputType="number"
+        android:textColor="#000"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="15dp"/>
+
+
+    <EditText
+        android:id="@+id/person_count"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit"
+        android:paddingLeft="5dp"
+        android:inputType="number"
+        android:hint="Person Count: "
+        android:textColor="#000"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="15dp"/>
+
+    <Spinner
+        android:id="@+id/tab_type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Select Table Image" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/edit"
+        android:src="@drawable/bbq1"
+        />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="25dp"/>
+
+    <Button
+        android:id="@+id/add_tab"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btback"/>
+
+</LinearLayout>

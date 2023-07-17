@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smile.imagetotext">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicons"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Order_List"></activity>
+        <activity android:name=".MyProfile" />
+        <activity android:name=".Final_Pay" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Order_Table" />
+        <activity android:name=".Hotel_info" />
+        <activity android:name=".Menu_list" />
+        <activity android:name=".Menu_card" />
+        <activity android:name=".Admin_main" />
+        <activity android:name=".Add_tables" />
+        <activity android:name=".Submit_Info" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Police_Login" />
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Newuser" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Vehicleinformation" />
+        <activity android:name=".Findinfo" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="ocr" />
+    </application>
+
+</manifest>
